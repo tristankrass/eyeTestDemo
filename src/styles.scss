@@ -13,6 +13,34 @@ body {
   }
 }
 
+
+.section{
+  &-1 {
+display: hidden;
+  }
+  &-2 {
+    display: hidden;
+  }
+  &-3 {
+    display: hidden;
+  }
+  &-4 {
+    display: hidden;
+  }
+  &-5 {
+    display: hidden;
+  }
+  &-6 {
+    display: hidden;
+  }
+}
+.hidden {
+  display: none !important;
+}
+.visible {
+  display: block !important;
+}
+
 .card {
   &--eyetest {
     width: 100%;
