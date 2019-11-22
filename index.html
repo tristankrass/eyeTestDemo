@@ -1,16 +1,74 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
 
-<head>
-	<title>Parcel Sandbox</title>
-	<meta charset="UTF-8" />
-</head>
+    <link rel="stylesheet" href="./src/styles.scss" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="#">Navbar w/ text</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            Navbar text with an inline element
+          </span>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <section
+        class="mt-2 section section-1 m-lg-5 m-xs-2 m-sm-2 m-md-4 d-flex mt-sm-2 mt-xs-2 justify-content-center"
+      >
+        <div class="card card--eyetest mt-xs-5 mt-sm-5">
+          <img
+            src="https://images.unsplash.com/photo-1517948430535-1e2469d314fe?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80"
+            class="card-img-top"
+            alt="Eye test"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Alusta testiga</a>
+          </div>
+        </div>
+      </section>
 
-<body>
-	<div id="app"></div>
+      <section class="section section-2"></section>
+      <section class="section section-3"></section>
+      <section class="section section-4"></section>
+      <section class="section section-5"></section>
+      <section class="section section-6"></section>
+    </main>
 
-	<script src="src/index.js">
-	</script>
-</body>
-
+    <script src="src/index.js"></script>
+  </body>
 </html>
